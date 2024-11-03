@@ -4,3 +4,4 @@ class Solution:
         if(m!=n):
             return False
         return goal in s+s
+    
