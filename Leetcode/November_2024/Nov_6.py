@@ -1,3 +1,4 @@
+from typing import List
 class Solution:
     def canSortArray(self, nums: List[int]) -> bool:
         def getsetbits(n):
