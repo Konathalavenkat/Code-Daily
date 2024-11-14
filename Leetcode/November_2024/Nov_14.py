@@ -1,3 +1,5 @@
+
+from typing import List
 class Solution:
     def minimizedMaximum(self, n: int, quantities: List[int]) -> int:
         def ispossible(mid):
