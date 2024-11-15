@@ -1,4 +1,6 @@
 
+from typing import List
+import math
 class Solution:
     def minimizedMaximum(self, n: int, quantities: List[int]) -> int:
         def ispossible(mid):
