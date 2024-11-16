@@ -1,3 +1,4 @@
+
 class Solution:
     def pushZerosToEnd(self,arr):
      ind,n=0,len(arr)
