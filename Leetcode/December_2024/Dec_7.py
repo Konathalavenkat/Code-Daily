@@ -1,3 +1,5 @@
+import math
+from typing import List
 class Solution:
     def minimumSize(self, nums: List[int], maxOperations: int) -> int:
         l,r = 1,max(nums)
