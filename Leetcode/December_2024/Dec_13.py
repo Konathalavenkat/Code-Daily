@@ -1,3 +1,4 @@
+from typing import List
 class Solution:
     def findScore(self, nums: List[int]) -> int:
         heap=[[val,i] for i,val in enumerate(nums)]
